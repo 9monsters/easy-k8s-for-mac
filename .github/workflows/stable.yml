@@ -11,17 +11,17 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: uwangjia
-        kubernetes_version: v1.14.8 
+        kubernetes_version: v1.15.5
   
-  github-package-k8s-image-sync:
-    name: github package k8s image sync stable
-    runs-on: ubuntu-latest
-    steps:
-    - name: sync
-      uses: NineSwordsMonster/github-actions/github-package-docker/k8s@master
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        username: ${{ secrets.GITHUB_DOCKER_USERNAME }}
-        registry: docker.pkg.github.com
-        repository: nineswordsmonster/nineswordsmonster
-        kubernetes_version: v1.14.8 
+  # github-package-k8s-image-sync:
+  #   name: github package k8s image sync stable
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - name: sync
+  #     uses: NineSwordsMonster/github-actions/github-package-docker/k8s@master
+  #     with:
+  #       token: ${{ secrets.GITHUB_TOKEN }}
+  #       username: ${{ secrets.GITHUB_DOCKER_USERNAME }}
+  #       registry: docker.pkg.github.com
+  #       repository: nineswordsmonster/nineswordsmonster
+  #       kubernetes_version: v1.15.5
