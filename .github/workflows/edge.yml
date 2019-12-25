@@ -1,8 +1,8 @@
-name: k8s image sync
+name: k8s image sync edge
 on: push
 jobs:
   k8s-image-sync:
-    name: k8s image sync
+    name: k8s image sync edge
     runs-on: ubuntu-latest
     steps:
     - name: sync
