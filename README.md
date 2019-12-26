@@ -4,7 +4,6 @@
 ![GitHub](https://img.shields.io/github/license/NineSwordsMonster/easy-k8s-for-mac)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/NineSwordsMonster/easy-k8s-for-mac)
-
 ![GitHub issues](https://img.shields.io/github/issues/NineSwordsMonster/easy-k8s-for-mac)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/NineSwordsMonster/easy-k8s-for-mac)
 
