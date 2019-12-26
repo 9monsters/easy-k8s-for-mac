@@ -24,4 +24,4 @@ jobs:
         password: ${{ secrets.GITHUB_DOCKER_PASSWORD }}
         registry: docker.pkg.github.com
         repository: NineSwordsMonster/NineSwordsMonster
-        kubernetes_version: v1.15.5
+        kubernetes_version: v1.17.0
