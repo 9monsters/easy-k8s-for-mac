@@ -20,8 +20,7 @@ jobs:
     - name: sync
       uses: NineSwordsMonster/github-actions/k8s-image-sync@master
       with:
-        username: ${{ secrets.GITHUB_DOCKER_USERNAME }}
-        password: ${{ secrets.GITHUB_DOCKER_PASSWORD }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
         registry: docker.pkg.github.com
         repository: nineswordsmonster/k8s
         kubernetes_version: v1.17.0
