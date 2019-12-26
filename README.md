@@ -7,7 +7,12 @@
 ![GitHub issues](https://img.shields.io/github/issues/NineSwordsMonster/easy-k8s-for-mac)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/NineSwordsMonster/easy-k8s-for-mac)
 
-dcoker for mac 开启 k8s预下载镜像
+![workflows stable](https://github.com/NineSwordsMonster/easy-k8s-for-mac/workflows/k8s%20image%20sync%20stable/badge.svg)
+![workflows edge](https://github.com/NineSwordsMonster/easy-k8s-for-mac/workflows/k8s%20image%20sync%20edge/badge.svg)
+![workflows latest](https://github.com/NineSwordsMonster/easy-k8s-for-mac/workflows/k8s%20image%20sync%20latest/badge.svg)
+
+
+因某些因素，国内开启k8s 时镜像时有无法下载的情况。因此本仓库会同步各`channel` `k8s` 版本，以开启 k8s预下载镜像
 
 ## 使用方法
 ```sh
