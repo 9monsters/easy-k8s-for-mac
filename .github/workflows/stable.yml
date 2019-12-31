@@ -21,6 +21,7 @@ jobs:
       uses: NineSwordsMonster/github-actions/k8s-image-sync@master
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
+        username: ${{ secrets.GITHUB_DOCKER_USERNAME }}
         registry: docker.pkg.github.com
         repository: nineswordsmonster/k8s
         kubernetes_version: v1.14.8 
