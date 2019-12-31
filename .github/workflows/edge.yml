@@ -22,7 +22,7 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         username: ${{ secrets.GITHUB_DOCKER_USERNAME }}
-        password: ${{ secrets.GITHUB_DOCKER_PASSWORD }}
+        password: ${{ secrets.GITHUB_DOCKER_TOKEN }}
         registry: docker.pkg.github.com
         repository: nineswordsmonster/nineswordsmonster
         kubernetes_version: v1.15.5
