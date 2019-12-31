@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "Enter your version (stable|edge): " version
+read -p "Enter your version (stable|edge|latest): " version
 
 file="./collection/${version}/images"
 
