@@ -11,7 +11,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: uwangjia
-        kubernetes_version: v1.17.0
+        kubernetes_version: v1.18.0
   
   # github-package-k8s-image-sync:
   #   name: github package k8s image sync latest
